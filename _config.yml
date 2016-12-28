@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hexo Configuration
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
@@ -86,3 +87,6 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:
+=======
+theme: jekyll-theme-minimal
+>>>>>>> 7d5ccef99b6d53bf8a35d07a16c026b0614ce570
