@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      Scribe &middot; Yang Xinlin
+    
+  </title>
+
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="shortcut icon" href="/public/favicon.png">
+  <link rel="alternate" type="application/atom+xml" title="Yang Xinlin" href="/atom.xml">
+</head>
+
 
   <body>
 
@@ -37,12 +51,43 @@ I’m currently lending my brain to <a href="https://envato.com">Envato</a> as t
 
       <main>
         <h2>Latest Work</h2>
-        {% for post in site.posts %}
+        
           <div class="project-post">
-            <h3><a href="{{ post.git }}">{{ post.title }}</a></h3>
-            {{ post.content }}
+            <h3><a href="https://github.com/jamigibbs/fair-split-calculator">Fair Split Calculator</a></h3>
+            A simple ReactJS calculator that takes two earnings and determines the amount each should pay towards an inputed set of household bills.
+
           </div>
-        {% endfor %}
+        
+          <div class="project-post">
+            <h3><a href="https://github.com/jamigibbs/scribe">Scribe</a></h3>
+            <p>A WordPress theme that excels as a writing tool. Built with <a href="http://underscores.me/">_s</a>, <a href="http://foundation.zurb.com/">Foundation</a>, and Sass.</p>
+
+          </div>
+        
+          <div class="project-post">
+            <h3><a href="https://github.com/jamigibbs/phantom">Phantom</a></h3>
+            <p>A minimalist, responsive portfolio theme for Jekyll with Bootstrap.</p>
+
+          </div>
+        
+          <div class="project-post">
+            <h3><a href="https://github.com/jamigibbs/monopoly-exchange">Grocery Store Monopoly Exchange</a></h3>
+            <p>A SPA that lists a directory of user inputed tickets from the grocery store Monopoly game to facilitate exchanges with friends &amp; family built with JavaScript and Angular.</p>
+
+          </div>
+        
+          <div class="project-post">
+            <h3><a href="https://github.com/jamigibbs/calculator">Calculator</a></h3>
+            <p>A functional calculator that can perform basic operations built with JavaScript, jQuery, &amp; Sass</p>
+
+          </div>
+        
+          <div class="project-post">
+            <h3><a href="https://github.com/jamigibbs/simon">Simon Game</a></h3>
+            <p>The classic memory game built with JavaScript, jQuery, &amp; Sass.</p>
+
+          </div>
+        
       </main>
 
       <footer>
@@ -54,7 +99,7 @@ I’m currently lending my brain to <a href="https://envato.com">Envato</a> as t
         </p>
 
         <p class="copyright">
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+          &copy; <time datetime="2017-06-08T11:17:56+08:00">2017</time>. All rights reserved.
         </p>
       </footer>
 
@@ -62,25 +107,25 @@ I’m currently lending my brain to <a href="https://envato.com">Envato</a> as t
 
     <div class="large-2 large-offset-1 columns social">
       <ul>
-        <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://twitter.com/xinlinyang"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://github.com/yangxinlin"><i class="fa fa-github"></i></a></li>
         <li><a href="https://blog.jamigibbs.com/"><i class="fa fa-medium"></i></a></li>
-        <li><a href="https://dribbble.com/{{ site.dribbble }}"><i class="fa fa-dribbble"></i></a></li>
+        <li><a href="https://dribbble.com/yangxinlin"><i class="fa fa-dribbble"></i></a></li>
       </ul>
     </div>
 
   </div>
 
-    {% if site.google_analytics %}
+    
      <script>
        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-       ga('create', '{{ site.google_analytics }}', 'auto');
+       ga('create', 'UA-3363703-15', 'auto');
        ga('send', 'pageview');
      </script>
-    {% endif %}
+    
 
   </body>
 </html>
