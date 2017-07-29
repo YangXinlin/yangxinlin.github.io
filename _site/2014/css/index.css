@@ -1,0 +1,211 @@
+body {
+    /*padding-top: 51px;*/
+}
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.94);
+}
+
+.intro_0 {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 120px 0;
+	text-align: center;
+	color: #fff;
+	background: url(../img/mottto_yangxinlin.png) no-repeat bottom center scroll;
+	background-color: #c7cdca;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.intro {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 460px 0;
+	text-align: center;
+	color: #fff;
+	background: url(../img/900_month_is_life.jpg) no-repeat bottom center scroll;
+	background-color: #c7cdca;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.intro2 {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 460px 0;
+	text-align: center;
+	background: url(../img/xplayer.png) no-repeat bottom center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.intro3 {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 460px 0;
+	text-align: center;
+	background: url(../img/opera_cn_10.png) no-repeat bottom center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+
+.intro4 {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 460px 0;
+	text-align: center;
+	background: url(../img/thermometer.png) no-repeat bottom center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+
+.intro5 {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 460px 0;
+	text-align: center;
+	background: url(../img/apicloud.png) no-repeat bottom center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+
+
+
+.intro-body {
+	display: table-cell;
+	color: #000;
+    border-top-width: 20px;
+}
+
+.white-out .intro-body,
+.white-out .brand-heading {
+	color: #FFF;
+}
+.brand-heading {
+	font-size: 40px;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    font-family: Helvetica,Arial,sans-serif;
+}
+.heading-switch {
+	border-bottom: 4px solid #E74C3C;
+}
+.intro-text {
+	font-size: 15px;
+    color: #fff;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    font-family: Helvetica,Arial,sans-serif;
+}
+@media(min-width: 767px) {
+	.intro {
+	height: 100%;
+
+}
+.brand-heading {
+	font-size: 60px;
+}
+.intro-text {
+	font-size: 17px;
+}
+}.content-section {
+	padding-top: 100px;
+}
+
+.section-pad {
+	margin-top: 80px;
+}
+.bg-gray {
+	background-color: #f5f5f5;
+}
+.download-section {
+	width: 100%;
+	padding: 50px 0;
+	color: #fff;
+	background-color: #28c3ab;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.download-section .btn-default {
+	border: 2px solid #FFF;
+	color: #FFF;
+	background-color: transparent;
+}
+.download-section .btn-default: hover,
+.download-section .btn-default: focus {
+	border: 2px solid #000;
+	color: #fff;
+	background-color: #000;
+}
+@media(min-width: 767px) {
+	.download-section {
+	padding: 100px 0;
+}
+
+.list-inline {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline > li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.list-inline > li: first-child {
+	padding-left: 0;
+}
+.banner-social-buttons {
+	margin-top: 0;
+}
+@media(max-width: 1199px) {
+	ul.banner-social-buttons {
+	margin-top: 15px;
+}
+@media(max-width: 767px) {
+	ul.banner-social-buttons > li {
+	display: block;
+	margin-bottom: 20px;
+	padding: 0;
+}
+ul.banner-social-buttons > li: last-child {
+	margin-bottom: 0;
+}
+-moz-selection {
+	text-shadow: none;
+	background: #fcfcfc;
+	background: rgba(255, 255, 255, 0.2);
+}
+selection {
+	text-shadow: none;
+	background: #fcfcfc;
+	background: rgba(255, 255, 255, 0.2);
+}
+img election {
+	background: 0 0;
+}
+img -moz-selection {
+	background: 0 0;
+}

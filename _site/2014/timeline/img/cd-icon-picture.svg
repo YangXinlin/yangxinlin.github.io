@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2 (9961) - http://www.bohemiancoding.com/sketch -->
+    <title>cd_icon_mottto</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M10.2146091,10.2090607 L17.4725938,2.95494817 C13.4639249,-1.05158208 6.96489577,-1.0513834 2.95642566,2.95494817 L10.2146091,10.2090607 L10.2146091,10.2090607 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="cd_icon_mottto" sketch:type="MSArtboardGroup">
+            <g id="Fill-7-+-Clip-12" sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
+                <path d="M2.95642566,2.95494817 C-1.05184566,6.96108107 -1.05184566,13.4568416 2.95662445,17.4633718 C6.96509455,21.4695047 13.4641236,21.4695047 17.4725938,17.4633718 C21.4810639,13.4570403 21.4810639,6.96147842 17.4727925,2.95514685 L10.2146091,10.2090607 L2.95642566,2.95494817" id="Fill-7" fill-opacity="0.3" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <mask id="mask-2" sketch:name="Clip 12" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Clip-12" fill="#FFFFFF" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

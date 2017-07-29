@@ -1,0 +1,291 @@
+.container{
+    width: 940px;
+    text-align: left;
+    margin: 0 auto;
+}
+.header{
+    position: relative;
+    z-index: 1000;
+    height: 40px;
+    line-height: 40px;
+    background: url("../img/nav_bg.png") left top repeat-x;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+.header h1.logo{
+    width: 120px;
+    float: left;
+    margin-left: 25px;
+}
+.header .search{
+    width: 195px;
+    float: right;
+}
+.header h1.logo img{
+    vertical-align: middle;
+}
+.header .nav{
+    width: 357px;
+    float: left;
+    margin-left: 50px;
+}
+.header .nav a{
+    color: #dbdbdb;
+    float: left;
+    display: block;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    font-size: 14px;
+    width: 119px;
+    text-align: center;
+    text-decoration: none;
+}
+.header .nav a:hover{
+    background: url("../img/nav_hover.png") repeat-x left top;
+}
+.header .nav a.focus,.header .nav a.focus :hover{
+    background: url("../img/nav_focus.png") no-repeat left center;
+}
+
+/*search*/
+.search{
+    position: relative;
+    width: 205px;
+    margin-right: 5px;
+}
+.search_txt{
+    width: 100px;
+    border: 0 none;
+    padding: 1px 15px 1px 22px;
+    color: #fff;
+    width: 150px;
+    border-radius: 12px;
+    color: #333;
+    outline: none;
+    background: #aebbc6; /* Old browsers */
+    background: -moz-linear-gradient(top, #aebbc6 0%, #787d82 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aebbc6), color-stop(100%,#787d82)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #aebbc6 0%,#787d82 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #aebbc6 0%,#787d82 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #aebbc6 0%,#787d82 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #aebbc6 0%,#787d82 100%); /* W3C */
+    border: 1px solid #263435;
+    box-shadow: inset 1px 1px 2px #676970,0 1px 1px  #47484b;
+}
+.search_txt::-webkit-input-placeholder { color:#6b6f73; }
+.search_txt::-moz-input-placeholder { color:#6b6f73; }
+.search_txt::-o-input-placeholder { color:#6b6f73; }
+.search_sub{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    top: 13px;
+    left: 5px;
+    border: none;
+    text-indent: -90000px;
+    background: url("../img/search_icon.png");
+}
+.focus .search_txt{
+    background: #eff3f6;
+}
+.focus .search_sub{
+    background-position: -16px 0;
+}
+
+.content{
+    margin-bottom: 30px;
+}
+.c01{
+    height: 100px;
+    background: #8c96a0;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.2),0 0 3px rgba(0,0,0,0.1);
+}
+.c01 h2{
+    color: #3e464e;
+    font-family: 'Adobe Heiti Std','微软雅黑','Microsoft Yahei','Microsoft JhengHei','黑体';
+    font-size: 24px;
+    text-align: left;
+    margin-left: 30px;
+}
+.n01{
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px;
+}
+.n01 .news_list{
+    width: 305px;
+    float: left;
+}
+a.news_item{
+    padding: 20px;
+    border-bottom: 2px solid #f6f6f6;
+    display: block;
+    text-decoration: none;
+}
+.news_item:hover{
+    background: #f8f9fa;
+}
+.news_item:hover .news_info h3{
+    color: #01acec;
+}
+.news_item .news_cover{
+    float: left;
+    display: block;
+    margin-right: 15px;
+}
+.news_list .news_info{
+    overflow: hidden;
+}
+.news_info h3{
+    height: 45px;
+    color: #000;
+}
+.news_list .date{
+    color: #888;
+}
+.n01 .news_detail{
+    width: 593px;
+    float: left;
+    border-left: 2px solid #f6f6f6;
+    padding: 20px;
+}
+.n01 .news_detail h3.news_title{
+    font-size: 18px;
+    color: #333;
+}
+.n01 .news_detail div.date{
+    color: #888;
+    margin: 5px 0 10px;
+}
+.n01 .news_detail .news_content{
+    min-height: 600px;
+}
+.n01 .pages{
+    text-align: center;
+}
+.n01 .pages_inner{
+    width: 60px;
+    margin: 0 auto;
+}
+.n01 .pages a.prev,.n01 .pages a.next{
+    display: block;
+    height: 19px;
+    width: 21px;
+    overflow: hidden;
+    background: url("../img/arrows.png");
+    text-indent: -9999em;
+    float: left;
+}
+.n01 .pages a.prev:hover{
+    background-position: 0 -21px;
+}
+.n01 .pages a.next{
+    background-position: right -21px;
+    float: right;
+}
+.n01 .pages a.next:hover{
+    background-position: right 0;
+}
+/*bottom_bar*/
+.bottom_bar{
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    background: #fff;
+}
+a.c06{
+    text-align: right;
+    display: block;
+    background:#fff url("../media/c06_img01.png") no-repeat 20% center;
+    width: 419px;
+    border-right: 1px solid #e1e5e8;;
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 130px;
+    padding: 20px 30px 10px 20px;
+    text-decoration: none;
+    -webkit-transition:background-color.3s ease;
+    -moz-transition:background-color.3s ease;
+    transition:background-color.3s ease;
+}
+a.c06:hover,a.c07:hover{
+    background-color: #f8f8f8;
+}
+.c06 h4,.c07 h4{
+    font-size: 14px;
+    color: #888;
+}
+.c06 h3,.c07 h3{
+    font-size: 18px;
+    color: #4f4f4f;
+    margin-bottom: 30px;
+}
+.c07 h3{
+    margin-bottom: 38px;
+}
+a.c07{
+    text-align: left;
+    float: left;
+    display: block;
+    width: 420px;
+    background: url("../img/car_cover.png") no-repeat 80% center;
+    height: 130px;
+    padding: 20px 30px 10px 20px;
+    text-decoration: none;
+    -webkit-transition:background-color.3s ease;
+    -moz-transition:background-color.3s ease;
+    transition:background-color.3s ease;
+}
+/*footer*/
+.footer{
+    height: 220px;
+    border-top: 1px solid #d8e5ea;
+    padding-top: 15px;
+}
+.fl01{
+    float: left;
+    width: 500px;
+    color: #878787;
+}
+.fc02{
+    width: 350px;
+    float: left;
+    text-align: right;
+}
+.fc02 a{
+    margin-left: 20px;
+}
+.fr03{
+    width: 52px;
+    float: right;
+}
+.fr03 img{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.f02{
+    margin-top: 50px;
+}
+.cp{
+    float: left;
+    width: 470px;
+    color: #b3b3b3;
+}
+.design_by{
+    width:470px;
+    float: right;
+    color: #b3b3b3;
+    text-align: right;
+}
+.design_by img{
+    vertical-align: middle;
+    margin-left: 15px;
+}

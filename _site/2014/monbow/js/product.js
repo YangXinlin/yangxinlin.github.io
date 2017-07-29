@@ -1,0 +1,9 @@
+$(function(){
+    $('.p_info,.p_cover').hover(function(){
+        $(this).siblings('.p_arrow').show();
+        $(this).parent().find('.p_desc').stop().animate({marginTop:'0px'});
+    },function(){
+        $(this).siblings('.p_arrow').hide();
+        $(this).parent().find('.p_desc').stop().animate({marginTop:'-190px'});
+    })
+});

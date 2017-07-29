@@ -1,0 +1,438 @@
+html, body
+{
+	background: #ececec;
+	margin: 0;
+	padding: 0;
+}
+ul
+{
+	list-style: none;
+}
+a
+{
+	color: #999;
+	height: auto;
+
+	text-decoration: none;
+	width: auto;
+}
+
+a img
+{
+	border:0 none;
+} 
+
+body
+{
+	position: relative;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1.logo
+{
+	width: 40px;
+	height: 36px;
+	background: url('../img/yangxinlin_logo.svg') no-repeat center;
+	top: 0px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 333;
+    left: 50%;
+    margin-left: -20px;
+}
+
+h1.logo a
+{
+	display: block;
+	width: 40px;
+	height: 36px;
+}
+
+.header
+{
+	border-bottom: 2px solid #aaaaaa;
+	height: 60px;
+	margin: 40px auto;
+	width: 940px;
+	margin-bottom: 40px;
+}
+
+.rightnav 
+{
+	float: right;
+	margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container
+{
+	margin: auto;
+	width: 960px;
+}
+.main
+{
+	overflow: hidden;
+}
+
+.nav
+{
+	display: inline-block;
+	overflow: hidden;
+	padding: 0 0 0 4px;
+}
+.nav a
+{
+	color: #999999;
+	padding-top: 10px;
+	display: inline-block;
+}
+.nav li
+{
+	float: left;
+	font-size: 12px;
+	margin-right: 36px;
+	margin-top: 0px;
+}
+.nav a:hover
+{
+	color: #000000;
+	text-decoration: none;
+}
+.error-border
+{
+	border: 0px solid #f0f0f0;
+}
+.imgs-wrap
+{
+	margin: 0px auto;
+	width: 960px;
+}
+.imgs-wrap div
+{
+	color: #000;
+	display: inline-block;
+}
+.imgs-wrap img
+{
+	background: #ffffff;
+	border: 0px solid #ffffff;
+	float: left;
+	height: 222px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 460px;
+}
+
+.thumb_title span
+{
+	color: #333333;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 15px;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	white-space: nowrap;
+
+}
+.project_thumb
+{
+	text-align: left;
+}
+#content_container
+{
+	clear: both;
+	margin: 40px auto 0 auto;
+	padding: 0 0px 10px 0;
+	position: relative;
+	width: 960px;
+	z-index: 40;
+}
+
+.worklist
+{
+	margin: 0;
+	padding: 0;
+}
+.worklist li
+{
+	width: 460px;
+	height: 240px;
+	float: left;
+	margin: 0 10px;
+}
+.worklist .thumb
+{
+	display: block;
+}
+
+.about
+{
+	margin: 0;
+	padding: 0;
+	height: 630px;
+	margin: 50px auto;
+	width: 940px;
+	line-height: 20px;
+}
+
+.about li
+{
+	width: 270px;
+	float: left;
+	margin: -30px 0;
+	margin-right: 43px;
+}
+
+
+.page
+{
+	margin: 0px;
+	padding: 0px;
+	width: 940px;
+	margin: 50px auto;
+	line-height: 20px;
+	height: 900px;
+}
+
+.page li
+{
+	width: 500px;
+	float: left;
+	margin: 0 0;
+	margin-right: -140px;
+
+}
+
+.pagefont li
+{
+	font-size: 14px;
+}
+
+.aboutright li
+{
+	width: 390px;
+	float: left;
+	margin: -30px 0;
+}
+
+.left
+{
+	margin: 0 0 0 -50px;
+	float: left;
+}
+
+.right
+{
+	margin: 0 0 0 -30px;
+}
+
+.clear
+{
+	clear: both;
+	font-size: 0;
+	height: 0;
+	width: 0;
+}
+.item
+{
+	font-size: 12px;
+}
+
+.item a:link
+{
+	color:#777777;
+}
+	
+	
+.item a:hover
+{
+	color:#000000;
+}
+
+.item1
+{
+	font-size: 16px;
+}
+
+.gray
+{
+	color: #cdcdcd;
+}
+
+.gray1
+{
+	color: #bdbdbd;
+}
+
+.lightgray
+{
+	color: #939393;
+}
+
+.black a: link
+{
+	color: #000;
+}
+
+.black a: hover
+{
+	color: #777777;
+}
+.title
+{
+	margin-right: 8px;
+}
+.cat, .date, .title{
+	display: inline-block;
+}
+
+.footer
+{
+	margin: 0 auto;
+	margin-top: 40px;
+	border-top: 2px solid #e6e6e6;
+	width: 940px;
+	text-align: right;
+	font-size: 12px;
+	margin-bottom: 70px;
+}
+
+.arrow:link
+{
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+	background:url(../img/arrow_right.png) no-repeat;
+	width:39px;
+	height:42px;
+	border:0px;
+}
+
+.arrow:hover
+{
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+	background:url(../img/arrow_right_hover.png) no-repeat;
+	width:39px;
+	height:42px;
+	border:0px;
+}
+
+.arrow1:link
+{
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+	background:url(../img/arrow.png) no-repeat;
+	width:39px;
+	height:42px;
+	border:0px;
+}
+
+.arrow1:hover
+{
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+	background:url(../img/arrow_hover.png) no-repeat;
+	width:39px;
+	height:42px;
+	border:0px;
+}
+
+.social-wrap
+{
+	background-color: #b8b8b8;
+	text-decoration: none;
+	height: 15px;
+	display: block;
+	overflow: hidden;
+}
+
+.social-wrap a
+{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 16px;
+	height: 15px;
+	padding-right: 12px;
+	float: left;
+}
+
+.social-wrap a:hover{
+	background-color: #34afd7;
+}
+.social-wrap a img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.social-wrap .icon-twitter img{
+	top: 0;
+	left: 0;
+}
+.social-wrap .icon-facebook img{
+	left: -31px;
+}
+.social-wrap .icon-dribbble img{
+	left: -62px;
+}
+.social-wrap .icon-weibo img{
+	left: -93px;
+}
+.social-wrap .icon-flickr img{
+	left: -124px;
+}
+.social-wrap .icon-douban img{
+	left: -155px;
+}
+.social-wrap .icon-last{
+	padding-right: 0;
+}
+
+#mian_images
+{
+	width:940px;
+	margin:0px auto;
+	margin-bottom:30px;	
+}
+
+table  
+{
+	width:940px;
+	margin:0px auto;	
+}
+
+dl
+{
+	width:940px;
+	margin:0px auto;
+	overflow:hidden;
+	height:50px;
+	border-bottom:2px #CCC solid;
+	margin-bottom:30px;
+	padding:0 0 10px 0;
+} 
+
+dl dt
+{
+	float:left;
+	line-height:40px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+dl dt font
+{	
+	color:#ccc;
+}
+
+
+dl dd
+{
+	float:right;
+}
