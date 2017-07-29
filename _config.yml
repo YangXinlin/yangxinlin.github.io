@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Setup
 title:               Yang Xinlin
-tagline:             Product Design from China beijing.
+tagline:             Product & Design.
 url:                 http://yangxinlin.github.io
 paginate:            1
 baseurl:             ""
@@ -24,8 +24,8 @@ author:
 # Custom vars
 version:             1.0.0
 github:
-  repo:              https://github.com/jamigibbs/portfolio
-google_analytics:    UA-3363703-15
+  repo:              https://github.com/YangXinlin/yangxinlin.github.io
+google_analytics:    UA-36036858-2
 twitter:             xinlinyang
 github:              yangxinlin
 dribbble:            yangxinlin
