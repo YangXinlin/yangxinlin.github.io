@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aribbble</title>
+</head>
+<body>
+  <ul class="shots"></ul>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="aribbble.js"></script>
+  <script src="jribbble.min.js"></script>
+
+  <script>
+    function success(apiResponse) {
+      // do cool stuff with apiResponse
+    };
+
+    function error(jqxhr) {
+      // Handle errors
+    };
+    // To use Jribbble you will need to register an application at:
+    // https://dribbble.com/account/applications/new
+    // Before calling any methods of jribbble you must set your
+    // dribbble client access token
+    $.jribbble.setToken('377aa441b4d99023661dcc0698df8f864db53c767fef28f541df33e3583ea2bb');
+
+    // Jribbble methods return a promise
+    $.jribbble.shots().then(success, error);
+  </script>
+</body>
+</html>
